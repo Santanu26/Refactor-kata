@@ -56,7 +56,6 @@ class GildedRose {
 
                 break;
             default:
-
                 if (item.quality > 0) {
                     item.quality = item.quality - 1;
                 }
