@@ -13,7 +13,7 @@ class GildedRose {
         }
     }
 
-    private void doUpdateQuality(Item item) {
+    protected void doUpdateQuality(Item item) {
         switch (item.name) {
             case "Aged Brie":
                 if (item.quality < 50) {
