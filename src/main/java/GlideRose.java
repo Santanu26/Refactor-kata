@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class GildedRose {
     Item[] items;
 
@@ -56,5 +58,12 @@ class GildedRose {
                 }
             }
         }
+    }
+
+    @Override
+    public String toString() {
+        return "GildedRose{" +
+                "items=" + Arrays.toString(items) +
+                '}';
     }
 }
